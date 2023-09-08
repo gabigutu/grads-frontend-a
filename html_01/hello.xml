@@ -1,0 +1,34 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<data>
+    <books>
+        <book>
+            <title lang="en">Harry Potter and the Sorcerer's Stone</title>
+            <title lang="ro">Harry Potter și piatra filosofală</title>
+            <author>J. K. Rowling</author>
+            <volume>1</volume>
+            <year>2005</year>
+            <code>
+                <!-- Code to be executed on the server -->
+            <![CDATA[
+            <script>
+                alert('Hello');
+            </script>
+            ]]>
+            </code>
+        </book>
+    </books>
+    <other>
+        <table> <!-- tabel -->
+            <tr>
+                <td>Vasi&lt;&gt;le</td>
+                <td>Popescu &#956; &#x3BC; &#x956; &#2390; Mc&apos;Donalds</td>
+            </tr>
+        </table>
+        <masa:table xmlns:masa="http://example.com/masa.dtd"> <!-- masa -->
+            <masa:height>80</masa:height>
+            <masa:diameter>70</masa:diameter>
+            <year>2010</year>
+            <available /> <!-- self closing tag -->
+        </masa:table>
+    </other>
+</data>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+
+    <style>
+        .grid-parent {
+            display: grid;
+            grid-template-columns: 20% 20% 20% 20% 20%;
+            grid-template-rows: 100px 300px 50px;
+            grid-template-areas: 
+                "header header header header meniu"
+                "main   main   main   .      lateral"
+                ".      subsol subsol subsol ."
+            ;
+        }
+
+        header {
+            background-color: aquamarine;
+            grid-area: header;
+        }
+        nav {
+            background-color: cadetblue;
+            grid-area: meniu;
+        }
+        main {
+            background-color: blanchedalmond;
+            grid-area: main;
+        }
+        aside {
+            background-color: brown;
+            grid-area: lateral;
+        }
+        footer {
+            background-color: yellow;
+            grid-area: subsol;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="grid-parent">
+        <header>
+            Header
+        </header>
+        <nav>
+            Nav
+        </nav>
+        <main>
+            Main
+        </main>
+        <aside>
+            Aside
+        </aside>
+        <footer>
+            Footer
+        </footer>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        Logo
+    </header>
+
+    <aside>
+        <nav>
+            <ul>
+                <li>
+                    <a href="http://google.ro">Google</a>
+                </li>
+                <li>
+                    <a href="http://yahoo.ro">Yahoo</a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main>
+
+        <h1>Hello (Heading 1)!</h1>
+
+        <p>This is our first HTML page.</p>
+
+        <h2>First section (Heading 2)</h2>
+
+        <p>Text of the first section.</p>
+
+        <h2>Second section (Heading 2)</h2>
+
+        <p>Text of the second section.</p>
+
+        <article>
+            <header>
+                Data publicarii: 06.09.2023
+                Autor: Gigi
+            </header>
+            <main>
+                <h3>Shopping list:</h3>
+
+                <p>This is the everyday shopping list.</p>
+
+                <ul><!-- unordered list -->
+                    <li>soap</li>
+                    <li>bread</li>
+                    <li>milk</li>
+                    <li>eggs</li>
+                </ul>
+            </main>
+            <footer>
+                This article has to be rewritten.
+            </footer>
+        </article>
+
+        <article>
+            <h3>Tasks</h3>
+
+            <p>This is your list of tasks.</p>
+
+            <ol><!-- ordered list -->
+                <li>cook meal</li>
+                <li>eat food</li>
+                <li>work on awesome project</li>
+                <li>clean house</li>
+            </ol>
+        </article>
+
+        <table border="1">
+            <tr><!-- table row -->
+                <td><!-- table data -->
+                    rand 1, celula 1
+                </td>
+                <td>
+                    rand 1, celula 2
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    rand 2, celula 1
+                </td>
+                <td>
+                    rand 2, celula 2
+                </td>
+            </tr>
+        </table>
+
+        <p>
+            This is another text, now the text should
+            go <br /> on new line
+        </p>
+    </main>
+
+    <hr /> <!-- horizontal line -->
+
+    <p>
+        You <span id="text-should">should</span>
+        <i><b>visit</b></i> <a href="http://google.ro">Google.ro</a>.
+    </p>
+
+    <figure>
+        <img src="masina.jpeg" alt="poza care afiseaza o masina" />
+        <figcaption>Figura 1. <strong>Masina</strong> <em>rosie</em></figcaption>
+    </figure>
+
+    <pre>
+        This is a pre-formatted 
+        text.
+    </pre>
+
+    <div>
+        <h2>Section from div</h2>
+        <p>Paragraph from div</p>
+    </div>
+
+    <div id="students">
+        <h1>Students</h1>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Popescu</td>
+                    <td>Vasile</td>
+                </tr>
+                <tr>
+                    <td>Anghelescu</td>
+                    <td>Adrian</td>
+                </tr>
+            </tbody>
+            <thead>
+                <tr>
+                    <th>Nume</th>
+                    <th>Prenume</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+
+    <form action="http://localhost:8080/api/auth/login" method="post">
+        <p>
+            <label for="footer_username">Username:</label>
+            <input placeholder="Username" type="text" name="username" id="footer_username" required minlength="6" />
+        </p>
+
+        <p>
+            <label for="footer_password">Password:</label>
+            <input type="password" name="password" id="footer_password" />
+        </p>
+        <p>
+            <input type="checkbox" id="bifa_termeni" />
+            <label for="bifa_termeni">Sunt de acord cu termenii si conditiile</label>
+        </p>
+        <p>
+            <label for="culoare_preferata">Culoare preferata:</label>
+            <input type="color" name="culoare" id="culoare_preferata" />
+        </p>
+        <button>Trimite</button>
+    </form>
+
+    <input type="date" />
+
+    <footer>
+        Copyright &copy; 2023 DB
+    </footer>
+
+
+
+
+</body>
+
+</html>
